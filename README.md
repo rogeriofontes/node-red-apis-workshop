@@ -3,4 +3,4 @@
 
 # Workshop de NodeRed
 
-Um Workshop para apresentação do funcionamento básico do NodeRed.\ Para instalação via docker: [Exemplos de docker](https://github.com/rogeriofontes/node-red-apis-workshop).
+Um Workshop para apresentação do funcionamento básico do NodeRed. <br /> Para instalação via docker: [Exemplos com docker](https://github.com/rogeriofontes/node-red-apis-workshop).
