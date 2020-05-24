@@ -41,8 +41,8 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-				<h3>Workshop - NodeRed API's</h3>
-					<h6>"API`s REST, são a chave para a conexão de dispositivos IoT com a Internet."</h6>
+				<h3>Workshop - NodeRed</h3>
+					<h6>"Integrações rápidas para IoT."</h6>
 					<img data-src="img/nodered-icon.png" width="200" height="200">
 					<p>
 						<small>Palestrante: <a href="http://rogeriofontes.inf.br" target="_blank">Rogério Fontes</a> / <a href="http://twitter.com/rogeriofontes" target="_blank">@rogeriofontes</a></small>
@@ -51,66 +51,197 @@
 
 				<section>
 					<h5>Sobre o palestrante:</h5>
-					<p><span style="font-size:22px">APAIXONADO EM MANEIRAS E FORMAS ÁGEIS DE CRIAR CÓDIGO FONTE. PROGRAMANDO SEMPRE TOMANDO UM BOM CAFÉ E ESCUTANDO UM BELO E PESADO ROCK`N ROLL. TRABALHA A MAIS DE 10 ANOS COM JAVA E LINUX, PASSANDO POR ANDROID, PYTHON, PHP E AGORA COM O CORAÇÃO NO ANGULAR.JS E NODE.JS. PROFESSOR UNIVERSITÁRIO DE REDES DE COMPUTADORES, JAVA E DISPOSITIVOS MÓVEIS. JUGLEADER E CO-FUNDADOR DO UAIJUG (GRUPO DE USUÁRIOS DO TRIÂNGULO MINEIRO) E DO TRIÂNGULO HACKERSPACE. ALÉM DISSO AVENTURANDO COMO EMPREENDEDOR E ARQUITETO Everis E APAIXONADO POR ESTUDOS MÚSICAIS. </p>
+					<p><span style="font-size:24px">APAIXONADO EM MANEIRAS E FORMAS ÁGEIS DE CRIAR CÓDIGO FONTE. PROGRAMANDO SEMPRE TOMANDO UM BOM CAFÉ E ESCUTANDO UM BELO E PESADO ROCK`N ROLL. TRABALHA A MAIS DE 10 ANOS COM JAVA E LINUX, PASSANDO POR ANDROID, PYTHON, PHP E AGORA COM O CORAÇÃO NO ANGULAR.JS E NODE.JS. PROFESSOR UNIVERSITÁRIO DE REDES DE COMPUTADORES, JAVA E DISPOSITIVOS MÓVEIS. JUGLEADER E CO-FUNDADOR DO UAIJUG (GRUPO DE USUÁRIOS DO TRIÂNGULO MINEIRO) E DO TRIÂNGULO HACKERSPACE. ESPECIALISTA DE SISTEMAS NO SOCIALBANK E APAIXONADO POR ESTUDOS MÚSICAIS. </p>
 				</section>
 
 				<section>
-					<a href="http://www.uaijug.com.br/" target="_blank"><img data-src="img/uaijug-300.png" width="350" height="250"></a>
-					<a href="http://www.triangulohackerspace.net.br/" target="_blank"><img data-src="img/150px-Logo_triangulohs.png" width="350" height="250"></a>
+					<a href="http://www.uaijug.com.br/" target="_blank"><img data-src="img/uaijug-300.png" ></a>
+					<a href="http://www.triangulohackerspace.net.br/" target="_blank"><img data-src="img/ths.png"></a>
 				</section>
 
 				<section>
 					<h5>Vamos falar sobre IoT?</h5>
 					<img data-src="img/iot.png" width="600" height="400">
 				</section>
-
+				
 				<section>
-					<h5>E as API?</h5>
-					<p><span style="font-size:22px">O IoT depende de um conjunto de tecnologias como RFID, IPv6, Big Data e APIs. Web APIs, ou mais fortemente as REST API, são a chave para a conexão de dispositivos com a Internet. Por isso a importância delas. </p>
-					<img data-src="img/Rest-API.png" width="400" height="200">
-				</section>
+					<section>
+						<h5>E as Integrações?</h5>
+						<p><span style="font-size:24px">O IoT depende de um conjunto de tecnologias como RFID, IPv6, Big Data e APIs. Web APIs, ou mais fortemente as REST API, são a chave para a conexão de dispositivos com a Internet. Por isso a importância delas. </p>
+						<img data-src="img/Rest-API.png" width="400" height="200">
+					</section>
 
-				<section>
-					<h5>Vamos falar de  Node-RED?</h5>
-					<p><span style="font-size:22px">O Node-RED é uma ferramenta de programação visual que conecta dispositivos de hardware, APIs e serviços online de maneiras simples. Ele fornece um navegador, que é basicamente um editor, que facilita a criação e conexão de fluxos. Ele usa vários nós na paleta, que podem ser arrastados e com único click e com isso podemos customiza-los. Os nós na paleta que pode ser implementado em tempo de execução em um único clique. </p>
-					<img data-src="img/node-red-visao.png" width="450" header="300">
-					<p> https://nodered.org/</p>
-				</section>
-
-				<section>
-					<h5>Qual a vantagem?</h5>
-					<p><span style="font-size:22px">O Node-RED tem um tempo de execução leve, que é construido em Node.js. Isso aproveita o máximo do modelo orientado a eventos (event-driven) e modelo não bloqueante (non-blocking model). Ideal para hardwares de baixo custo.</p>
-				</section>
-
-				<section>
-					<h5>O que são esse nós?</h5>
-					<p><span style="font-size:22px">O Node-RED possui um sistema de programação por meio de flows, que é uma área de blocos lógicos. Esse blocos lógicos são arrastados e conectados. Esses blocos lógicos são o que chamamos de nós (nodes).</p>
+					<section>
+						<h5>O que podemos fazer com NODE-RED?</h5>
+						<ul style="font-size:24px">
+							<li>Publicar tweets automáticos;</li>
+							<li>Chatbots;</li>
+							<li>Home automation;</li>
+							<li>Monitorização de dados sendo IoT ou Não;</li>
+							<li>RestAPI's</li>
+							<li>Dashboard</li>
+							<li>Redes sociais / mensageiros: Twitter, Facebook, Slack, Telegram</li>
+							<li>Integração com outros serviços: IBM Watson, Openwhisk</li>
+							<li>Banco de dados: MySQL, CouchDB, MongoDB, Azure SQL</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
 					<section>
+						<h5>Vamos falar de  Node-RED?</h5>
+						<p><span style="font-size:24px">O Node-RED é uma ferramenta de programação visual que conecta dispositivos de hardware, APIs e serviços online de maneiras simples. Ele fornece um navegador, que é basicamente um editor, que facilita a criação e conexão de fluxos. Ele usa vários nós na paleta, que podem ser arrastados e com único click e com isso podemos customiza-los. Os nós na paleta que pode ser implementado em tempo de execução em um único clique. </p>
+						<img data-src="img/node-red-visao.png" width="450" header="300">
+						<p> https://nodered.org/</p>
+					</section>
+
+					<section>
+						<h5>Node-RED?</h5>
+						<p><span style="font-size:24px">O Node-RED, foi criado pela IBM Emerging Technology, e é uma ferramenta de desenvolvimento Open-Source, baseada em fluxos. Ela foi desenvolvida para interagir com dispositivos de hardware, 
+					APIs e vários tipos de serviços e Integrações online e offline, visando facilitar projetos de IoT (Internet of Things). </p>
+					</section>
+				</section>
+
+				<section>
+					<h5>histórico</h5>
+					<ul style="font-size:24px">
+						<li>Criado e 2013 pela IBM com a função de conectar dispositivos e hardware de maneira simples a serviços web e outros softwares.</li>
+						<li>É opensource com uma comunidade muito ativa - https://github.com/node-red/node-red.</li>
+						<li>Transformou-se em uma ferramenta de programação IoT para os mais variados propósitos.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h5>Como funciona?</h5>
+					<p><span style="font-size:24px">O Node-RED permite a programação através de uma interface gráfica bastante simples e intuitiva. Para desenvolver uma aplicação com Node-RED, apenas é necessário ligar nós em outros nós, e programar ou configurar suas próprias funções. Para funções mais eleboradas podemos criar código JavaScript.</p>
+				</section>
+				<section>
+					<section>
+						<h5>Qual a vantagem?</h5>
+						<p><span style="font-size:24px">O Node-RED tem um tempo de execução leve, que é construido em Node.js. Isso aproveita o máximo do modelo orientado a eventos (event-driven) e modelo não bloqueante (non-blocking model). Ideal para hardwares de baixo custo.</p>
+					</section>
+					
+					<section>
+					<h5>Qual a vantagem?</h5>
+					<ul style="font-size:24px">
+						<li>Simplifica o desenvolvimento integrando blocos de código para executar tarefas.</li>
+						<li>Faz uso de uma abordagem de programação visual que permite conectar "nós", para executar uma tarefa específica.</li>
+						<li>Podemos criar fluxos, conectando nós de entradas, saídas e "negócio".</li>
+					</ul>
+					</section>	
+				</section>
+
+				<section>
+					<h5>Tem uma documentação excelente!</h5>
+					<ul style="font-size:24px">
+						<li>Tutoriais: https://cookbook.nodered.org.</li>
+						<li>Guia de usuário: https://nodered.org/docs/user-guide.</li>
+						<li>Tutorial para criação de nós: https://nodered.org/docs/creating-nodes.</li>
+						<li>Documentação da API: https://nodered.org/docs/api.</li>
+						<li>Tutorial para desenvolvedores colaboradores: https://nodered.org/docs/developing</li>
+						<li>Muitos exemplos de fluxos prontos: https://flows.nodered.org/?type=flow</li>
+						<li>Muitos nós disponíveis: ttps://flows.nodered.org/?sort=downloads&type=node</li>
+					</ul>	
+				</section>
+				<section>
+					<section>
+						<h5>Conceitos do Node-RED</h5>
+					</section>
+					<section>
+						<h5>O que são Fluxos?</h5>
+						<ul style="font-size:24px">
+							<li>No Node-RED, programas são fluxos compostos por uma coleção de nós conectados para trocar mensagens.</li>
+							<li>Cada nó tem um propósito bem definido.</li>
+							<li>Tecnicamente, um fluxo consiste em uma lista de objetos JavaScript que descrevem os nós esuas configurações.</li>
+						</ul>
+						<img data-src="img/fluxo.png" width="750" header="150">
+					</section>
+					<section>
+						<h5>O que são Mensagens?</h5>
+						  <ul style="font-size:24px">
+							 <li>As mensagens transmitidas entre nós no Node-RED são, por convenção, objetos JavaScript chamados msg, consistindo em um conjunto de propriedades nomeadas.</li>
+							 <li>Geralmente contêm uma propriedade msg.payload com a carga útil (payload) da mensagem.</li>
+							 <li>Os nós podem anexar outras propriedades a uma mensagem, que pode ser usada para transportar outras informações para o próximo nó no fluxo.</li>
+						  </ul>
+					</section>
+					<section>
+						<h5>O que são nós?</h5>
+						<p><span style="font-size:24px">O Node-RED possui um sistema de programação por meio de flows, que é uma área de blocos lógicos. Esse blocos lógicos são arrastados e conectados. Esses blocos lógicos são o que chamamos de nós (nodes).</p>
+					</section>
+					<section>
+						<h5>O que são nós?</h5>
+						 <ul style="font-size:24px">
+							<li>São o principal bloco de construção dos fluxos no Node-RED.</li>
+							<li>Quando um fluxo está em execução, as mensagens são geradas, consumidas e processadas pelos nós.</li>
+						 </ul>
+					</section>
+					<section>
 						<h5>Tipos dos nós?</h5>
-						<p><span style="font-size:22px">Existem 3 tipos de nós no NodeRed.</p>
+						<p><span style="font-size:24px">Existem 3 tipos de nós básicos no NodeRed.</p>
 					</section>
 					<section>
 						<h5>NODES DE ENTRADA (Input)</h5>
-						<p><span style="font-size:22px">Os nodes de entrada são os que recebem informações de sensores ou outras API's.</p>
-						<img data-src="img/paleta-input.png" width="250" header="80"> <!-- Colocar a exemplo -->
+						<p><span style="font-size:24px">Os nodes de entrada são os que recebem informações de sensores ou outras API's.</p>
+						<img data-src="img/paleta-input.png" width="250" header="80" />
 					</section>
 					<section>
 						<h5>NODES DE TRANSIÇÃO (function, social, etc)</h5>
-						<p><span style="font-size:22px">Os nós (nodes) de transição são onde faremos os tratamento dos dados.</p>
-						<img data-src="img/paleta-function.png" width="250" header="80">
+						<p><span style="font-size:24px">Os nós (nodes) de transição são onde faremos os tratamento dos dados.</p>
+						<img data-src="img/paleta-function.png" width="250" header="80" />
 					</section>
 					<section>
 						<h5>NODES DE SAÍDA (Output)</h5>
-						<p><span style="font-size:22px">São os nós (nodes) que respondem de acordo com os dados recebidos, sejam estes dados tratados ou não.</p>
-						<img data-src="img/paleta-output.png" width="250" header="80">
+						<p><span style="font-size:24px">São os nós (nodes) que respondem de acordo com os dados recebidos, sejam estes dados tratados ou não.</p>
+						<img data-src="img/paleta-output.png" width="250" header="80" >
+					</section>
+					<section>
+						<h5>Existem 2 categorias adicionais de nós:</h5>
+						 <ul style="font-size:24px">
+							<li>Nós de credenciais.</li>
+							<li>Nós criados por usuários.</li>
+						 </ul>
+					</section>
+					<section>
+						<h5>Nós de função:</h5>
+						 <ul style="font-size:24px">
+							<li>Os nós de função são o “canivete suíço” do Node-RED.</li>
+							<li>Podem ser utilizados quando não há um nó dedicado especificamente à tarefa que se deseja executar.</li>
+							<li>São escritos em Javascript por meio de um editor de código disponível no Node-RED</li>
+							<li>Os nós de função também podem retornar múltiplos valores.</li>
+							<li>Nós de função - utilizando o contexto local (context)</li>
+						 </ul>
 					</section>
 				</section>
 				<section>
-					<h5>Fluxo</h5>
-					<img data-src="img/fluxo.png" width="750" header="150">
+					<h5>Existem Fios (Wired)</h5>
+                     <ul style="font-size:24px">
+                        <li>Os fios definem as conexões entre os nós de entrada e saída em um fluxo.</li>
+                        <li>Conectam a extremidade dos nós de saída às entradas dos nós de recebimento de dados.</li>
+                        <li>É possível conectar mais de um nó à extremidade do nós de saída usando fios.</li>
+                        <li>Quando vários nós são conectados a um terminal de saída, as mensagens são enviadas para cada nó conectado, na ordem em que foram conectadas à saída.</li>
+                    </ul>
+				</section>
+				<section>
+					<section>
+						<h5>Contexto</h5>
+						<ul style="font-size:24px">
+							<li>Os fios definem as conexões entre os nós de entrada e saída em um fluxo.</li>
+							<li>As mensagens, até agora, eram a única maneira de obter dados dentro e fora dos nós.</li>
+							<li>Todavia, há uma exceção a essa regra -> context.</li>
+							<li>O context está disponível apenas para os nós de função.</li>
+							<li>É usado para armazenar dados na memória que podem ser acessados posteriormente.</li>
+							<li>É importante para os nós que precisam manter um índice, contar ou somar dados nasmensagens.</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h5>Existem 2 tipos de contexto</h5>
+						<ul style="font-size:24px">
+							<li>Os fios definem as conexões entre os nós de entrada e saída em um fluxo.</li>
+							<li>Contexto do fluxo (flow) - que pode ser acessado por todos os nós de um fluxo.</li>
+							<li>Contexto global (global) - que pode ser acessado por todos os nós de uma instância.</li>
+						</ul>
+					</section>
 				</section>
 				<section>
 					<section>
@@ -130,6 +261,27 @@
 						<p><span style="font-size:24px">http://localhost:1880<span></p>
 						<img data-src="img/run.png" width="450" header="150">
 					</section>
+					<section>
+						<h5>Com docker?</h5>
+						<p><span style="font-size:24px">docker run -it -p 1880:1880 --name mynodered nodered/node-red<span></p>
+					</section>
+					<section>
+						<h5>Com docker?</h5>
+						<p><span style="font-size:24px">docker run -it -p 1880:1880 -v ~/node-red-data:/data --name mynodered nodered/node-red-docker<span></p>
+					</section>
+					<section>
+						<h5>Com docker?</h5>
+						<ul style="font-size:24px">
+							<li>$ cd ~/node-red-data</li>
+							<li>$ npm install node-red-node-smooth</li>
+							<li>$ docker stop mynodered</li>
+							<li>$ docker start mynodered</li>
+						</ul>
+					</section>
+					<section>
+						<h5>Com docker?</h5>
+						<p><span style="font-size:24px">https://github.com/node-red/node-red-docker<br/>https://nodered.17coding.net/docs/platforms/docker<span></p>
+					</section>
 				</section>
 				<section>
 					<h5>Workshop de NodeRed</h5>
@@ -138,6 +290,16 @@
 				</section>
 				<section>
 					<img data-src="img/thanks.jpg"  width="250" header="200">
+				</section>
+				<section>
+					<span  style="font-size:24px">
+						<a href="https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red/" target="_blank">https://nodered.org</a><br />
+						<a href="https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red/" target="_blank">https://flows.nodered.org/node/node-red-dashboard</a><br />
+						<a href="https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red/" target="_blank">https://nodered.org/docs/user-guide/editor/workspace/subflows</a><br />
+						<a href="https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red/" target="_blank">https://nodered.org/docs/user-guide/editor/workspace/wires</a><br />
+						<a href="https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red/" target="_blank">https://pt-br.eventials.com/imasters/aprenda-a-prototipar-usando-node-red</a><br />
+						<a href="https://blogmasterwalkershop.com.br/outros/chatbot-com-node-red-e-telegram/" target="_blank">https://blogmasterwalkershop.com.br/outros/chatbot-com-node-red-e-telegram</a><br />
+					</span>	
 				</section>
 			</div>
 
